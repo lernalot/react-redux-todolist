@@ -1,0 +1,36 @@
+{
+  "name": "todolist-react-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build",
+    "start": "nodemon server.js",
+    "webpack": "webpack -d --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "babel-node tools/run bundle",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "123",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.0.0-rc4",
+    "redux": "^3.5.2",
+    "superagent": "^2.2.0",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "antd": "^1.11.4",
+    "babel-loader": "^6.2.4",
+    "nodemon": "^1.10.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
